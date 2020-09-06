@@ -1,0 +1,29 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "express test",
+  "main": "demo1.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swetha-14/node.js-practice.git"
+  },
+  "keywords": [
+    "testapp"
+  ],
+  "author": "Swetha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swetha-14/node.js-practice/issues"
+  },
+  "homepage": "https://github.com/Swetha-14/node.js-practice#readme"
+}
