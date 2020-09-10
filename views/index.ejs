@@ -8,15 +8,7 @@
 </head>
 <body>
     <%- include ('partials/nav.ejs') %>
-    <h1> Hey <%= person %>   !, Welcome to your profile!</h1>
+    <h1>Welcome to the most awesome website on the internet</h1>
     <p>You will not find a website better anywhere else</p>
-    <p><strong>Age : <%= data.age %></strong></p>
-    <p><strong>Job : <%= data.job %></strong></p>
-    <h2>Hobbies</h2>
-    <ul>
-        <% data.hobbies.forEach(function(item){ %>
-            <li><%= item %></li>
-        <% }); %>
-    </ul>
 </body>
 </html>

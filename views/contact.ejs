@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <%- include ('partials/nav.ejs') %>
+    <h1>Contact US</h1>
+    <p>Send a mail to swethasukumar14@gmail.com</p>
+    <form action="/contact" id="contact-form" method="post">
+        <label for="who">Whom fo you wish to contact ? </label>
+        <input type="text" name="who"><br/>
+        <label for="department">Which Department ? </label>
+        <input type="text" name="department"><br/>
+        <label for="email">Your Email</label>
+        <input type="email" name="email"><br/>
+        <input type="submit" name="submit"/>
+    </form>
+    <br/>
+</body>
+</html>
